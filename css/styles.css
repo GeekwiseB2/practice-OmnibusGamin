@@ -1,38 +1,38 @@
 .container-fluid{
-  background-color: yellow;
+  background-color: blue;
   padding: 20px;
 }
 
 .header{
-  background-color: blue;
+  background-color: orange;
   padding: 20px;
   height: 200px;
   border: 2px solid black;
 }
 
 .nav{
-  background-color: green;
+  background-color: blue;
   padding:20px;
   height: 100px;
   border: 2px solid black;
 }
 
 .content{
-  background-color: red;
+  background-color: orange;
   padding:20px;
   height: 200px;
   border: 2px solid black;
 }
 
 .aside{
-  background-color: aqua;
+  background-color: orange;
   padding:20px;
   height: 200px;
   border: 2px solid black;
 }
 
 .promo{
-  background-color: orange;
+  background-color: blue;
   padding:20px;
   height: 250px;
   border: 2px solid black;
@@ -40,8 +40,20 @@
 
 .footer{
   color:white;
-  background-color: black;
+  background-color: orange;
   padding: 20px;
   height: 200px;
   border: 2px solid black;
+}
+
+@media screen and (min-width : 375px) {
+  .container-fluid, .nav, .promo {
+    background: orange;
+  }
+}
+
+@media screen and (min-width : 786px) {
+   .header, .footer, .aside, .content{
+    background: blue;
+  }
 }
