@@ -1,60 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 3 practice</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
+  <meta charset="UTF-8">
+  <title>Practice</title>
+  <!--BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
 </head>
 <body>
+<!--JQUERY-->
 
+
+  <div class="contain-fluid">
+    <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <h3>[CONTAINER-FLUID]</h3>
-    <div class="row header">
-      <div class="col-md-12">
-        <h3>[HEADER]</h3>
-      </div>
-    </div><!--End of row-->
-    <div class="row nav">
-      <div class="col-md-12">
-        <h3>[NAV]</h3>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  </div>
+
+  <div class="jumbotron">
+  <h1>Hell, world!</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</lor></p>
+  <p class="wrapper"><a class="btn btn-primary btn-lg" href="http://omnibusgamin.github.io./" role="button">Learn more</a></p>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/one.jpg" alt="al">  <div class="carousel-caption">
+        <h3>Alphonse</h3>
+        <p>Carefully sculpted from paper, epoxy, paint, and faux leather</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-9 content">
-        <h3>[CONTENT]</h3>
+
+    <div class="item">
+      <img src="img/two.jpg" alt="helm">
+      <div class="carousel-caption">
+        <h3>Helmet</h3>
+        <p>Mass Effect 3 Helmet, hand painted.</p>
       </div>
-      <div class="col-mid-3 aside">
-        <h3>[ASIDE]</h3>
-      </div><!--aside/content ends-->
     </div>
-<div class="row">
-  <div class="col-md-3 promo">
-    <h3>PROMO 1</h3>
+
+    <div class="item">
+      <img src="img/three.jpg" alt="shelf">
+      <div class="carousel-caption">
+        <h3>Shelving unit</h3>
+        <p>Made from the finest scrap wood and metal, and decorated in geeky figures and an exquisite can of Mountain Dew</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/four.jpg" alt="mask">
+      <div class="carousel-caption">    <h3>Majora's Mask</h3>
+        <p>A hand crafted, hand painted replica of the possesed mask from The Legend of Zelda series of the same name.</p>
+      </div>
+    </div>
   </div>
-  <div class="col-md-3 promo">
-    <h3>PROMO 2</h3>
-  </div>
-  <div class="col-md-3 promo">
-    <h3>PROMO 3</h3>
-  </div>
-  <div class="col-md-3 promo">
-    <h3>PROMO 4</h3>
-  </div><!--promo ends-->
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
-<div class="row footer">
-<div class="col-md-12">
-  <h3>[FOOTER]</h3>
-</div>
-</div>
+    <footer id="copyright">
 
-  </div> <!--End of container-->
+      </div>
+      <p>&copy;2016 Sir Alexander Jennings Esquire. All Rights Reserved. | Site by:<a href="#">A.J.</a></p>
 
-  <!-- start of javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.css"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

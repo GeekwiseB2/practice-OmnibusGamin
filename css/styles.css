@@ -1,59 +1,65 @@
 .container-fluid{
-  background-color: blue;
-  padding: 20px;
+  padding: 0px;
+  background-color: #003b6f;
 }
 
-.header{
-  background-color: orange;
-  padding: 20px;
-  height: 200px;
-  border: 2px solid black;
+.navbar{
+  margin:0px;
 }
 
-.nav{
-  background-color: blue;
-  padding:20px;
-  height: 100px;
-  border: 2px solid black;
+.navbar-header{
+background-color: #003b6f;
 }
 
-.content{
-  background-color: orange;
-  padding:20px;
-  height: 200px;
-  border: 2px solid black;
+.navbar-default .navbar-nav > li > a{
+  color: #4848d1;
 }
 
-.aside{
-  background-color: orange;
-  padding:20px;
-  height: 200px;
-  border: 2px solid black;
+.navbar-default .navbar-brand{
+  color: #4848d1;
 }
 
-.promo{
-  background-color: blue;
-  padding:20px;
-  height: 250px;
-  border: 2px solid black;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  color: #4848d1;
+  background-color: #003b6f;
 }
 
-.footer{
-  color:white;
-  background-color: orange;
-  padding: 20px;
-  height: 200px;
-  border: 2px solid black;
+/*JUMBOTRON STYLES*/
+
+.jumbotron{
+  margin-bottom: 0px;
 }
 
-@media screen and (min-width : 375px) {
-  .container-fluid, .nav, .promo {
-    background: orange;
-  }
+.jumbotron h1{
+  text-align: center;
 }
 
-@media screen and (min-width : 786px) {
-   .header, .footer, .aside, .content{
-    background: blue;
-  }
+.wrapper{
+  text-align: center;
+}
+
+
+/*Footer Styles*/
+footer{
+  margin-top: 20px;
+  clear:both;
+}
+
+#copyright{
+  padding: 30px; 0px;
+  background-color: #003b6f;
+  display: block;
+  color: #4848d1;
+  margin:0px;
+}
+
+#copyright p{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#copyright a{
+  color: #4848d1;
+  margin:0px;
+  padding:0px;
 }
